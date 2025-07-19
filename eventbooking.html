@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Event Booking</title>
+  <link rel="stylesheet" href="eventbooking.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>CHEF CONNECT</h1>
+    <p>Chef Bookings | Wide Range of Cuisines | Transparent Pricing & Reviews | Convenience</p>
+  </header>
+
+  <!-- FORM SECTION -->
+  <section class="form-section">
+    <h2>Book Your Chef Now</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your Name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="number" id="phone" placeholder="Enter your Phone Number" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your Email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="crowd">Crowd Capacity:</label>
+        <select id="crowd" required>
+          <option value="">Select Range</option>
+          <option>50-100</option>
+          <option>100-300</option>
+          <option>500-1000</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="variant">Chef Variant:</label>
+        <select id="variant" required>
+          <option value="">Select Type</option>
+          <option>Basic</option>
+          <option>Intermediate</option>
+          <option>Expert</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </div>
+    </form>
+  </section>
+
+  <!-- MESSAGE -->
+  <section class="message">
+    <p class="thank-you">Thank you for choosing CHEF CONNECT! 👨‍🍳🍲🚀</p>
+    <p>Our chef will contact you and share all details by email.</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <a href="index.html">Home</a> |
+    <a href="https://www.instagram.com/">Instagram</a> |
+    <a href="https://www.facebook.com/">Facebook</a>
+  </footer>
+
+</body>
+</html>
